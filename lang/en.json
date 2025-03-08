@@ -1,0 +1,125 @@
+{
+  "navbar": {
+    "home": "Home",
+    "explore": "Explore",
+    "destinations": "Destinations",
+    "packages": "Packages",
+    "adventures": "Adventures",
+    "blog": "Blog",
+    "about": "About Us",
+    "contact": "Contact",
+    "account": "Account",
+    "trips": "My Trips",
+    "preferences": "Preferences",
+    "login": "Login",
+    "logout": "Logout",
+    "language": "Language"
+  },
+  "languages": {
+    "uz": "O‘zbek",
+    "ru": "Русский",
+    "en": "English"
+  },
+  "hero": {
+    "title": "Explore the World with UTravel",
+    "subtitle": "Find your next adventure with our best travel packages.",
+    "cta": {
+      "destination": "Explore Destinations",
+      "package": "View Packages"
+    }
+  },
+  "achievements": {
+    "title": "Our Commitment to Excellence",
+    "subtitle": "PalmStar's dedication to exceptional travel experiences, by the numbers.",
+    "stats": {
+      "happy_travelers": "Happy Travelers",
+      "years_experience": "Years of Experience",
+      "destinations": "Destinations Worldwide",
+      "customer_satisfaction": "Customer Satisfaction",
+      "repeat_customers": "Repeat Customers",
+      "community_projects": "Profits to Community Projects"
+    }
+  },
+  "features": {
+    "title": "Unlock the Magic of Travel with PalmStar",
+    "subtitle": "Your journey is more than just a destination – it's an unforgettable experience.",
+    "list": {
+      "exploration": {
+        "title": "Global Exploration",
+        "description": "Embark on extraordinary adventures to breathtaking corners of the globe. From secluded islands to vibrant cities, we unveil a world of possibilities, limited only by your imagination."
+      },
+      "guidance": {
+        "title": "Expert Guidance",
+        "description": "Our seasoned travel experts are your trusted companions, curating seamless journeys and providing insider knowledge to ensure every step of your adventure is smooth, insightful, and worry-free."
+      },
+      "experiences": {
+        "title": "Crafted Experiences",
+        "description": "Your journey is a masterpiece in the making. We tailor each itinerary to your unique desires, whether you seek thrilling adventures, peaceful retreats, or a blend of cultural immersion and relaxation."
+      }
+    }
+  },
+  "destinations": {
+    "title": "Discover Your Dream Destination",
+    "subtitle": "A collection of breathtaking destinations curated by PalmStar.",
+    "cards": [
+    {
+      "name": "Bali, Indonesia",
+      "description": "Lush rice terraces, ancient temples, vibrant nightlife, and world-class surfing.",
+      "best_time": "Best time: April - October",
+      "read_more": "Read More",
+      "book_now": "Book Now"
+    },
+    {
+      "name": "Santorini, Greece",
+      "description": "Romantic sunsets, white-washed villages, volcanic beaches, and ancient ruins.",
+      "best_time": "Best time: May - September",
+      "read_more": "Read More",
+      "book_now": "Book Now"
+    },
+    {
+      "name": "Machu Picchu, Peru",
+      "description": "Hike through the Andes to reach the ancient Incan city—stunning architecture and breathtaking scenery.",
+      "best_time": "Best time: May - September",
+      "read_more": "Read More",
+      "book_now": "Book Now"
+    },
+    {
+      "name": "Queenstown, New Zealand",
+      "description": "The adventure capital of the world—bungee jumping, skydiving, hiking, and breathtaking mountain views.",
+      "best_time": "Best time: December - February",
+      "read_more": "Read More",
+      "book_now": "Book Now"
+    },
+    {
+      "name": "Iceland",
+      "description": "Witness the Northern Lights, explore glaciers, soak in hot springs, and experience the unique beauty of this Nordic wonderland.",
+      "best_time": "Best time: June - August",
+      "read_more": "Read More",
+      "book_now": "Book Now"
+    },
+    {
+      "name": "Tahiti, French Polynesia",
+      "description": "Escape to a paradise of turquoise lagoons, overwater bungalows, vibrant coral reefs, and the captivating spirit of Polynesian culture.",
+      "best_time": "Best time: May - October",
+      "read_more": "Read More",
+      "book_now": "Book Now"
+    },
+    {
+      "name": "Maldives",
+      "description": "Discover a paradise of overwater bungalows, pristine beaches, crystal-clear waters, and vibrant coral reefs. Indulge in luxury and tranquility in this secluded haven.",
+      "best_time": "Best time: November - April",
+      "read_more": "Read More",
+      "book_now": "Book Now"
+    },
+    {
+      "name": "Maasai Mara, Kenya",
+      "description": "Witness the Great Migration, encounter majestic wildlife on thrilling game drives, and experience the rich culture of the Maasai people.",
+      "best_time": "Best time: July - October",
+      "read_more": "Read More",
+      "book_now": "Book Now"
+    }
+    ],
+    "explore_more": "Explore More Destinations"
+  }
+  
+}

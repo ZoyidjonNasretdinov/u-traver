@@ -1,0 +1,124 @@
+{
+  "navbar": {
+    "home": "Bosh sahifa",
+    "explore": "Sayohat",
+    "destinations": "Manzillar",
+    "packages": "Paketlar",
+    "adventures": "Sarguzashtlar",
+    "blog": "Blog",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa",
+    "account": "Hisob",
+    "trips": "Mening sayohatlarim",
+    "preferences": "Sozlamalar",
+    "login": "Kirish",
+    "logout": "Chiqish",
+    "language": "Til"
+  },
+  "languages": {
+    "uz": "O‘zbek",
+    "ru": "Русский",
+    "en": "English"
+  },
+  "hero": {
+    "title": "UTravel bilan dunyoni kashf eting",
+    "subtitle": "Bizning eng yaxshi sayohat paketlarimiz bilan yangi sarguzashtingizni toping.",
+    "cta": {
+      "destination": "Yo‘nalishlarni o‘rganish",
+      "package": "Paketlarni ko‘rish"
+    }
+  },
+  "achievements": {
+    "title": "Mukammallikka bo‘lgan intilishimiz",
+    "subtitle": "PalmStar ajoyib sayohat tajribalariga sodiqligi, raqamlarda.",
+    "stats": {
+      "happy_travelers": "Baxtli sayohatchilar",
+      "years_experience": "Yillik tajriba",
+      "destinations": "Dunyo bo‘ylab yo‘nalishlar",
+      "customer_satisfaction": "Mijozlarning qoniqish darajasi",
+      "repeat_customers": "Qayta sayohat qiluvchilar",
+      "community_projects": "Jamiyat loyihalariga foyda"
+    }
+  },
+  "features": {
+    "title": "PalmStar bilan sayohat sehrini kashf eting",
+    "subtitle": "Sizning sayohatingiz faqat manzil emas – bu unutilmas tajriba.",
+    "list": {
+      "exploration": {
+        "title": "Dunyo bo‘ylab sayohat",
+        "description": "Dunyoning betakror burchaklariga hayratomuz sarguzashtlarga chiqing. Yashirin orollardan tortib jonli shaharlarigacha – biz sizga faqat tasavvuringiz bilangina cheklangan imkoniyatlar dunyosini ochamiz."
+      },
+      "guidance": {
+        "title": "Mutaxassis yo‘nalishlari",
+        "description": "Tajribali sayohat mutaxassislarimiz sizning ishonchli hamrohingiz bo‘lib, sizga mukammal sayohatlar yaratishda va har bir bosqichning silliq, tushunarli va xavfsiz o‘tishini ta’minlashda yordam beradi."
+      },
+      "experiences": {
+        "title": "Shaxsiylashtirilgan tajribalar",
+        "description": "Sizning sayohatingiz haqiqiy asarga aylanadi. Biz har bir yo‘nalishni sizning shaxsiy istaklaringizga mos ravishda moslashtiramiz – sarguzashtlar, osoyishta dam olish yoki madaniy sayohatlar aralashmasini xohlaysizmi, bu sizga bog‘liq."
+      }
+    }
+  },
+  "destinations": {
+    "title": "Orzuingizdagi Manzilni Keshf Qiling",
+    "subtitle": "PalmStar tomonidan tanlangan ajoyib yo'nalishlar to'plami.",
+    "cards": [
+    {
+      "name": "Bali, Indoneziya",
+      "description": "Serhasham sholizorlar, qadimiy ibodatxonalar, jonli tungi hayot va dunyo darajasidagi sörfing.",
+      "best_time": "Eng yaxshi vaqt: Aprel - Oktyabr",
+      "read_more": "Batafsil",
+      "book_now": "Bron qilish"
+    },
+    {
+      "name": "Santorini, Gretsiya",
+      "description": "Romantik quyosh botishlari, oq qishloqlar, vulqon plyajlari va qadimiy xarobalar.",
+      "best_time": "Eng yaxshi vaqt: May - Sentyabr",
+      "read_more": "Batafsil",
+      "book_now": "Bron qilish"
+    },
+    {
+      "name": "Machu Picchu, Peru",
+      "description": "And tog‘lari bo‘ylab qadimiy Inka shahriga sayohat – ajoyib arxitektura va hayratlanarli manzaralar.",
+      "best_time": "Eng yaxshi vaqt: May - Sentyabr",
+      "read_more": "Batafsil",
+      "book_now": "Bron qilish"
+    },
+    {
+      "name": "Queenstown, Yangi Zelandiya",
+      "description": "Dunyodagi sarguzasht poytaxti – bungee sakrash, parashyut bilan sakrash, tog‘ yurishlari va ajoyib manzaralar.",
+      "best_time": "Eng yaxshi vaqt: Dekabr - Fevral",
+      "read_more": "Batafsil",
+      "book_now": "Bron qilish"
+    },
+    {
+      "name": "Islandiya",
+      "description": "Shimoliy yog‘duga guvoh bo‘ling, muzliklarni o‘rganing, issiq buloqlarda dam oling va bu noyob Skandinaviya mo‘’jizasini kashf qiling.",
+      "best_time": "Eng yaxshi vaqt: Iyun - Avgust",
+      "read_more": "Batafsil",
+      "book_now": "Bron qilish"
+    },
+    {
+      "name": "Taiti, Fransiya Polineziyasi",
+      "description": "Turkuaz lagunalar, suv ustidagi bungalolar, rang-barang marjon riflari va Polineziya madaniyatining sehrli ruhi.",
+      "best_time": "Eng yaxshi vaqt: May - Oktyabr",
+      "read_more": "Batafsil",
+      "book_now": "Bron qilish"
+    },
+    {
+      "name": "Maldiv orollari",
+      "description": "Suv ustidagi bungalolar, oppoq plyajlar, musaffo suvlar va rang-barang marjon riflarini kashf qiling. Bu xususiy orolda hashamat va xotirjamlikni his eting.",
+      "best_time": "Eng yaxshi vaqt: Noyabr - Aprel",
+      "read_more": "Batafsil",
+      "book_now": "Bron qilish"
+    },
+    {
+      "name": "Masai Mara, Keniya",
+      "description": "Buyuk Migratsiyaga guvoh bo‘ling, hayvonot olamining betakror go‘zalligidan bahramand bo‘ling va Maasai xalqining boy madaniyatini o‘rganing.",
+      "best_time": "Eng yaxshi vaqt: Iyul - Oktyabr",
+      "read_more": "Batafsil",
+      "book_now": "Bron qilish"
+    }
+   ],
+    "explore_more": "Ko'proq Manzillarni O'rganing"
+  }
+}
