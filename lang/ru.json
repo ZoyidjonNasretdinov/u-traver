@@ -364,5 +364,18 @@
         "link": "blog-post-3.html"
       }
     ]
+  },
+  "Contact": {
+    "section_title": "Свяжитесь с нами",
+    "section_desc": "Мы поможем вам спланировать поездку вашей мечты.",
+    "address_title": "Наш адрес",
+    "address_text": "Город Самарканд,<br>Мирзо Улугбек 16а",
+    "phone_title": "Позвоните нам",
+    "phone_number": "+998 (77) 777-0077",
+    "form_name": "Ваше имя",
+    "form_email": "Адрес электронной почты",
+    "form_subject": "Тема",
+    "form_message": "Ваше сообщение",
+    "form_submit": "Отправить сообщение"
   }
 }

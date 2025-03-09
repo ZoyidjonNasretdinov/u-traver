@@ -86,66 +86,67 @@
     <div class="container py-5">
       <div class="row justify-content-center">
         <div class="col-md-8">
-          <h2 class="display-4 text-center my-4">Get in Touch</h2>
-          <p class="lead text-center mb-5">We're here to help you plan your dream vacation.</p>
-
+          <h2 id="contact-title" class="display-4 text-center my-4">Biz bilan bog‘laning</h2>
+          <p id="contact-desc" class="lead text-center mb-5">
+            Sizning orzuingizdagi sayohatni rejalashtirishda yordam beramiz.
+          </p>
+  
           <div class="card shadow-sm rounded-3">
             <div class="card-body">
               <div class="row">
                 <div class="col-md-6 mb-4">
                   <div class="contact-info text-center">
                     <i class="bi bi-geo-alt-fill text-warning display-4 mb-3"></i>
-                    <h5>Our Address</h5>
-                    <p>Samarkand City,<br>Mirzo Ulughbek 16a</p>
+                    <h5 id="contact-address-title">Bizning manzil</h5>
+                    <p id="contact-address-text">Samarqand sh.,<br>Mirzo Ulug‘bek 16a</p>
                   </div>
                 </div>
                 <div class="col-md-6 mb-4">
                   <div class="contact-info text-center">
                     <i class="bi bi-telephone-fill text-warning display-4 mb-3"></i>
-                    <h5>Call Us</h5>
-                    <a href="tel:+254729098548" class="text-decoration-none text-body-emphasis">+998 (77) 777-0077</a>
+                    <h5 id="contact-phone-title">Biz bilan bog‘laning</h5>
+                    <a id="contact-phone-number" href="tel:+998777770077" class="text-decoration-none text-body-emphasis">
+                      +998 (77) 777-0077
+                    </a>
                   </div>
                 </div>
               </div>
-
+  
               <hr>
               <form id="contactForm">
                 <div class="row">
                   <div class="col-md-6 mb-3">
-                    <label for="name" class="form-label fw-bold">Your Name</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name"
-                      required>
+                    <label id="form-name" for="name" class="form-label fw-bold">Ismingiz</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Ismingizni kiriting" required>
                   </div>
                   <div class="col-md-6 mb-3">
-                    <label for="email" class="form-label fw-bold">Email Address</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email"
-                      required>
+                    <label id="form-email" for="email" class="form-label fw-bold">Email manzilingiz</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Emailingizni kiriting" required>
                   </div>
                 </div>
-
+  
                 <div class="mb-3">
-                  <label for="subject" class="form-label fw-bold">Subject</label>
-                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter subject"
-                    required>
+                  <label id="form-subject" for="subject" class="form-label fw-bold">Mavzu</label>
+                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Mavzuni kiriting" required>
                 </div>
-
+  
                 <div class="mb-3">
-                  <label for="message" class="form-label fw-bold">Your Message</label>
-                  <textarea class="form-control" id="message" name="message" rows="4"
-                    placeholder="Enter your message here..." required></textarea>
+                  <label id="form-message" for="message" class="form-label fw-bold">Xabaringiz</label>
+                  <textarea class="form-control" id="message" name="message" rows="4" placeholder="Xabaringizni kiriting" required></textarea>
                 </div>
-
+  
                 <div class="text-center">
-                  <button type="submit" class="btn btn-warning">Send Message</button>
+                  <button id="form-submit" type="submit" class="btn btn-warning">Xabar Yuborish</button>
                 </div>
               </form>
-
+  
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+  
   <footer class="bg-dark text-light py-5">
     <div class="d-flex flex-column align-items-center justify-content-evenly">
       <img src="../static/img/utravel.png" alt="PalmStar Logo" width="120">

@@ -13,10 +13,11 @@
   <style>
     .container {
       background-color: #fff;
+      margin-top: 40px;
       padding: 20px;
       max-width: 500px;
       border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
 
     header {
@@ -112,7 +113,7 @@
 <body>
   <main class="container">
     <header>
-      <img src="../static/img/palmstar-logo.png" alt="Company Logo" class="logo text-center">
+      <img src="../static/img/utravel.png" alt="Company Logo" class="logo text-center mt-2">
     </header>
     <section class="tab-container">
       <button class="tab active" onclick="openTab(event, 'login')" id="login-tab">Login</button>
@@ -132,7 +133,7 @@
           <input type="checkbox" name="remember-me" id="remember" class="form-check-input"> Remember Me
           <span id="login-remember"></span>
         </label>
-        <button type="submit" id="login-btn">Login</button>
+        <a href="../index.html" class="d-block w-100 btn w-[100%]"><button type="submit" id="login-btn">Login in</button></a>
       </form>
     </section>
     <section id="signup" class="tab-content">
@@ -154,7 +155,7 @@
             conditions</a>
             <span id="signup-terms-text"></span>
         </label>
-        <button type="submit" id="signup-btn">Sign Up</button>
+        <a href="../index.html" class="d-block w-100 btn w-[100%]"><button type="submit" id="signup-btn">Sign Up</button></a>
       </form>
     </section>
   </main>

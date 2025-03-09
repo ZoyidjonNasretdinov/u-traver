@@ -1,32 +1,52 @@
-function changeLanguage(lang) {
-  fetch(`lang/${lang}.json`) // JSON faylni yuklash
+document.addEventListener("DOMContentLoaded", () => {
+    const isLoggedIn = localStorage.getItem("loggedIn");
+    if (isLoggedIn) {
+      document.getElementById("nav-login").classList.add("d-none");
+      document.getElementById("nav-logout").classList.remove("d-none");
+    }
+    document.getElementById("nav-logout").addEventListener("click", () => {
+      localStorage.removeItem("loggedIn");
+      location.reload();
+    });
+  });
+  
+  // Language change function
+  function changeLanguage(lang) {
+    localStorage.setItem("language", lang);
+    location.reload();
+  }
+  
+  let currentLang = localStorage.getItem("language") || "uz";
+  function changeLanguage(lang) {
+    fetch(`../../lang/${lang}.json`)
       .then(response => response.json())
       .then(data => {
-        
-          
-          // Login bo'limi
-          document.getElementById("login-tab").textContent = data.login.tab;
-          document.getElementById("login-welcome").textContent = data.login.welcome;
-          document.getElementById("login-text").textContent = data.login.text;
-          document.getElementById("loginEmail").setAttribute("placeholder", data.login.email_placeholder);
-          document.getElementById("loginPassword").setAttribute("placeholder", data.login.password_placeholder);
-          document.getElementById("login-remember").textContent = data.login.remember_me;
-          document.getElementById("login-btn").textContent = data.login.btn;
+        const navItems = ["home", "explore", "destinations", "packages", "adventures", "blog", "about", "contact", "account", "trips", "preferences", "login", "logout", "language"];
+        navItems.forEach(id => {
+          let element = document.getElementById(`nav-${id}`);
+          if (element) element.textContent = data.navbar[id];
+        });
 
-          // Signup bo'limi
-          document.getElementById("signup-tab").textContent = data.signup.tab;
-          document.getElementById("signup-welcome").textContent = data.signup.welcome;
-          document.getElementById("signup-text").textContent = data.signup.text;
-          document.getElementById("signupName").setAttribute("placeholder", data.signup.name_placeholder);
-          document.getElementById("signupEmail").setAttribute("placeholder", data.signup.email_placeholder);
-          document.getElementById("signupPassword").setAttribute("placeholder", data.signup.password_placeholder);
-          document.getElementById("signup-terms-text").textContent = data.signup.terms_conditions;
-          document.getElementById("signup-terms-link").textContent = data.signup.terms_link;
-          document.getElementById("signup-btn").textContent = data.signup.btn;
+        let contactData = data.Contact; // Get Contact object
 
-          
+            document.getElementById("contact-title").textContent = contactData.section_title;
+            document.getElementById("contact-desc").textContent = contactData.section_desc;
+            document.getElementById("contact-address-title").textContent = contactData.address_title;
+            document.getElementById("contact-address-text").innerHTML = contactData.address_text;
+            document.getElementById("contact-phone-title").textContent = contactData.phone_title;
+            document.getElementById("contact-phone-number").textContent = contactData.phone_number;
 
-          localStorage.setItem("language", lang); // Tilni saqlash
+            document.getElementById("form-name").textContent = contactData.form_name;
+            document.getElementById("form-email").textContent = contactData.form_email;
+            document.getElementById("form-subject").textContent = contactData.form_subject;
+            document.getElementById("form-message").textContent = contactData.form_message;
+            document.getElementById("form-submit").textContent = contactData.form_submit;
+        localStorage.setItem("language", lang);
       })
       .catch(error => console.error("Language file not found:", error));
-}
+  }
+  
+  document.addEventListener("DOMContentLoaded", () => {
+    let currentLang = localStorage.getItem("language") || "uz";
+    changeLanguage(currentLang);
+  });

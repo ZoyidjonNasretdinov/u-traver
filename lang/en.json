@@ -364,6 +364,19 @@
         "link": "blog-post-3.html"
       }
     ]
+  },
+  "Contact": {
+    "section_title": "Get in Touch",
+    "section_desc": "We're here to help you plan your dream vacation.",
+    "address_title": "Our Address",
+    "address_text": "Samarkand City,<br>Mirzo Ulughbek 16a",
+    "phone_title": "Call Us",
+    "phone_number": "+998 (77) 777-0077",
+    "form_name": "Your Name",
+    "form_email": "Email Address",
+    "form_subject": "Subject",
+    "form_message": "Your Message",
+    "form_submit": "Send Message"
   }
   
 }
