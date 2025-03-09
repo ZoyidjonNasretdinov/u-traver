@@ -339,5 +339,30 @@
     "terms_conditions": "Men shartlarni qabul qilaman",
     "terms_link": "Foydalanish shartlari",
     "btn": "Ro‘yxatdan o‘tish"
+  },
+  "Blogs": {
+    "blog_title": "Sayohat ilhomi va maslahatlar",
+    "blog_desc": "Sayohat olamidagi eng so‘nggi hikoyalar, maslahatlar va qo‘llanmalarni kashf eting.",
+    "view_all": "Barcha blog postlarini ko‘rish",
+    "posts": [
+      {
+        "img": "../static/img/bali-beaches.webp",
+        "title": "Bali bo‘yicha eng yaxshi qo‘llanma",
+        "desc": "Bali orolining eng go‘zal joylarini o‘rganing – guruch maydonlaridan tortib tungi hayot va plyajlargacha.",
+        "link": "blog-post-1.html"
+      },
+      {
+        "img": "../static/img/japan-blog.webp",
+        "title": "Yaponiyadagi eng yaxshi 10 sarguzasht",
+        "desc": "Yaponiyadagi eng hayajonli sarguzashtlarni boshdan kechiring.",
+        "link": "blog-post-2.html"
+      },
+      {
+        "img": "../static/img/santorini-blog.jpg",
+        "title": "Santorini madaniyati va ta’mi",
+        "desc": "Santorini tarixiy joylari va mazali taomlari bilan tanishing.",
+        "link": "blog-post-3.html"
+      }
+    ]
   }
 }

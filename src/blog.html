@@ -16,7 +16,7 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top shadow-lg" aria-label="Main navigation">
     <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <a class="navbar-brand" href="../index.html">
         <img src="../static/img/utravel.png" alt="logo" loading="lazy" class="me-1 brand-logo rounded" width="35px" height="25px">
         UTravel
       </a>
@@ -84,49 +84,23 @@
   <main>
     <section class="blog-section py-5">
       <div class="container">
-        <h2 class="display-4 text-center my-4">Travel Inspiration & Tips</h2>
-        <p class="lead text-center mb-5">Discover the latest stories, tips, and guides from the world of travel.</p>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100 shadow-sm">
-              <img src="../static/img/bali-beaches.webp" class="card-img-top" alt="Blog Post 1">
-              <div class="card-body">
-                <h5 class="card-title">The Ultimate Guide to Bali</h5>
-                <p class="card-text">Explore the best of Bali, from its lush rice terraces to vibrant nightlife and
-                  stunning beaches.</p>
-                <a href="blog-post-1.html" class="btn btn-warning">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100 shadow-sm">
-              <img src="../static/img/japan-blog.webp" class="card-img-top" alt="Blog Post 2">
-              <div class="card-body">
-                <h5 class="card-title">Top 10 Adventure Activities in Japan</h5>
-                <p class="card-text">Experience the thrill of adventure with these top activities in Japan.</p>
-                <a href="blog-post-2.html" class="btn btn-warning">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100 shadow-sm">
-              <img src="../static/img/santorini-blog.jpg" class="card-img-top" alt="Blog Post 3">
-              <div class="card-body">
-                <h5 class="card-title">Cultural Delights of Santorini</h5>
-                <p class="card-text">Discover the rich culture and history of Santorini, from its ancient ruins to its
-                  delicious cuisine.</p>
-                <a href="blog-post-3.html" class="btn btn-warning">Read More</a>
-              </div>
-            </div>
-          </div>
+        <h2 id="blog-title" class="display-4 text-center my-4">Sayohat ilhomi va maslahatlar</h2>
+        <p id="blog-desc" class="lead text-center mb-5">
+          Sayohat olamidagi eng so‘nggi hikoyalar, maslahatlar va qo‘llanmalarni kashf eting.
+        </p>
+    
+        <div class="row" id="blog-posts">
+          <!-- Blog postlar JavaScript orqali avtomatik qo‘shiladi -->
         </div>
-
+    
         <div class="text-center mt-5">
-          <a href="#" class="btn btn-warning">View All Blog Posts</a>
+          <a id="view-all" href="#" class="btn btn-warning">Barcha blog postlarini ko‘rish</a>
         </div>
       </div>
     </section>
+    
+
+    
   </main>
   <footer class="bg-dark text-light py-3">
     <div class="container">

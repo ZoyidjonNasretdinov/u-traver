@@ -339,6 +339,31 @@
     "terms_conditions": "I accept",
     "terms_link": "terms and conditions",
     "btn": "Sign Up"
+  },
+  "Blogs": {
+    "blog_title": "Travel Inspiration & Tips",
+    "blog_desc": "Discover the latest stories, tips, and guides from the world of travel.",
+    "view_all": "View All Blog Posts",
+    "posts": [
+      {
+        "img": "../static/img/bali-beaches.webp",
+        "title": "The Ultimate Guide to Bali",
+        "desc": "Explore the best of Bali, from its lush rice terraces to vibrant nightlife and stunning beaches.",
+        "link": "blog-post-1.html"
+      },
+      {
+        "img": "../static/img/japan-blog.webp",
+        "title": "Top 10 Adventure Activities in Japan",
+        "desc": "Experience the thrill of adventure with these top activities in Japan.",
+        "link": "blog-post-2.html"
+      },
+      {
+        "img": "../static/img/santorini-blog.jpg",
+        "title": "Cultural Delights of Santorini",
+        "desc": "Discover the rich culture and history of Santorini, from its ancient ruins to its delicious cuisine.",
+        "link": "blog-post-3.html"
+      }
+    ]
   }
   
 }

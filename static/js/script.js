@@ -296,6 +296,7 @@ function changeLanguage(lang) {
             // //**Package */
             document.getElementById("packages-title").textContent = data.packages.title;
             document.getElementById("packages-subtitle").textContent = data.packages.subtitle;
+            document.getElementById("package-btn").textContent = data.packages.button;
 
             const packageCards = document.getElementById("packageCards");
 
@@ -323,7 +324,7 @@ function changeLanguage(lang) {
                     </div>
                 `).join('');
             }
-            
+
             // Funksiyani chaqirish
             renderPackages();
 
@@ -452,6 +453,10 @@ function changeLanguage(lang) {
             document.getElementById("signup-terms-link").textContent = data.signup.terms_link;
             document.getElementById("signup-btn").textContent = data.signup.btn;
 
+
+            // Blogs
+            
+
             // Saqlash
             localStorage.setItem("language", lang);
 
@@ -482,3 +487,4 @@ function setWelcomeMessage(message) {
 
   chatBody.appendChild(botMessage);
 }
+
