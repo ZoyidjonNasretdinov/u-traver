@@ -63,6 +63,7 @@
     "subtitle": "A collection of breathtaking destinations curated by PalmStar.",
     "cards": [
     {
+      "img_url":"./static/img/bali.jpg",
       "name": "Bali, Indonesia",
       "description": "Lush rice terraces, ancient temples, vibrant nightlife, and world-class surfing.",
       "best_time": "Best time: April - October",
@@ -70,6 +71,7 @@
       "book_now": "Book Now"
     },
     {
+      "img_url":"./static/img/santorini.jpg",
       "name": "Santorini, Greece",
       "description": "Romantic sunsets, white-washed villages, volcanic beaches, and ancient ruins.",
       "best_time": "Best time: May - September",
@@ -77,6 +79,7 @@
       "book_now": "Book Now"
     },
     {
+      "img_url":"./static/img/machu-picchu.jpg",
       "name": "Machu Picchu, Peru",
       "description": "Hike through the Andes to reach the ancient Incan city—stunning architecture and breathtaking scenery.",
       "best_time": "Best time: May - September",
@@ -84,6 +87,7 @@
       "book_now": "Book Now"
     },
     {
+      "img_url":"./static/img/queenstown.jpg",
       "name": "Queenstown, New Zealand",
       "description": "The adventure capital of the world—bungee jumping, skydiving, hiking, and breathtaking mountain views.",
       "best_time": "Best time: December - February",
@@ -91,6 +95,7 @@
       "book_now": "Book Now"
     },
     {
+      "img_url":"./static/img/Iceland.webp",
       "name": "Iceland",
       "description": "Witness the Northern Lights, explore glaciers, soak in hot springs, and experience the unique beauty of this Nordic wonderland.",
       "best_time": "Best time: June - August",
@@ -98,6 +103,7 @@
       "book_now": "Book Now"
     },
     {
+      "img_url":"./static/img/tahiti.jpg",
       "name": "Tahiti, French Polynesia",
       "description": "Escape to a paradise of turquoise lagoons, overwater bungalows, vibrant coral reefs, and the captivating spirit of Polynesian culture.",
       "best_time": "Best time: May - October",
@@ -105,6 +111,7 @@
       "book_now": "Book Now"
     },
     {
+      "img_url":"./static/img/rayyu-maldives.jpg",
       "name": "Maldives",
       "description": "Discover a paradise of overwater bungalows, pristine beaches, crystal-clear waters, and vibrant coral reefs. Indulge in luxury and tranquility in this secluded haven.",
       "best_time": "Best time: November - April",
@@ -112,6 +119,7 @@
       "book_now": "Book Now"
     },
     {
+      "img_url":"./static/img/maasai-mara.jpg",
       "name": "Maasai Mara, Kenya",
       "description": "Witness the Great Migration, encounter majestic wildlife on thrilling game drives, and experience the rich culture of the Maasai people.",
       "best_time": "Best time: July - October",
@@ -120,6 +128,217 @@
     }
     ],
     "explore_more": "Explore More Destinations"
+  },
+  "packages": {
+    "title": "Unforgettable Experiences, Curated for You",
+    "subtitle": "Discover our exclusive travel packages designed to ignite your wanderlust.",
+    "list": [
+      {
+        "title": "Bali Bliss: 8-Day Cultural Escape",
+        "description": "Explore the cultural heart of Ubud, relax on pristine beaches, and experience the island's unique spirituality.",
+        "details": [
+          "7 nights in luxury accommodations",
+          "Daily breakfast & 3 gourmet dinners",
+          "Guided tours of temples and rice terraces",
+          "Yoga and meditation sessions"
+        ],
+        "price": "From $1,899 per person",
+        "image": "./static/img/bali-package.jpg"
+      },
+      {
+        "title": "Kenya Safari Adventure: 10 Days",
+        "description": "Witness the Great Migration in the Maasai Mara, encounter diverse wildlife, and immerse yourself in the rich culture of Kenya.",
+        "details": [
+          "9 nights in luxurious safari lodges",
+          "Multiple game drives with experienced guides",
+          "Visit a Maasai village for a cultural exchange",
+          "All-inclusive meals and drinks"
+        ],
+        "price": "From $3,299 per person",
+        "image": "./static/img/safari-package.webp"
+      },
+      {
+        "title": "European Highlights: 12 Days",
+        "description": "Experience the iconic cities and charming countryside of Europe, from the Eiffel Tower in Paris to the canals of Venice.",
+        "details": [
+          "11 nights in centrally located hotels",
+          "High-speed train travel between cities",
+          "Guided tours of major landmarks",
+          "Plenty of free time for exploration"
+        ],
+        "price": "From $2,499 per person",
+        "image": "./static/img/european-highlights.jpg"
+      },
+      {
+        "title": "Enchanting Vietnam: 10-Day Journey",
+        "description": "Explore the vibrant cities, ancient temples, stunning landscapes, and delicious cuisine of Vietnam, from bustling Hanoi to serene Halong Bay.",
+        "details": [
+          "9 nights in comfortable hotels and a traditional junk boat",
+          "City tours of Hanoi and Ho Chi Minh City",
+          "Overnight cruise in Halong Bay",
+          "Cooking class and street food tour",
+          "Visit the ancient city of Hoi An"
+        ],
+        "price": "From $1,299 per person",
+        "image": "./static/img/vietnam-package.png"
+      }
+    ],
+    "button": "Explore All Packages"
+  },
+  "about": {
+    "title": "Why Choose U Travel?",
+    "subtitle": "More Than Just a Vacation, It's an Experience.",
+    "description": "U Travel isn't just another travel agency. We're your partners in crafting unique, personalized adventures that awaken your senses and leave you with stories to tell.",
+    "features": {
+      "paradises": {
+        "title": "Discover Hidden Paradises",
+        "description": "Uncover secluded beaches, enchanting forests, and captivating cultures with our carefully crafted tours."
+      },
+      "delights": {
+        "title": "Savor Local Delights",
+        "description": "Treat your taste buds to authentic flavors and culinary delights from around the globe, curated just for you."
+      },
+      "memories": {
+        "title": "Capture Timeless Memories",
+        "description": "Preserve your adventures with stunning photographs and cherish the moments that take your breath away."
+      }
+    },
+    "cta": "Explore Our Destinations"
+  },
+  "booking": {
+    "title": "Book Your Adventure with U Travel",
+    "destination": "Destination",
+    "placeholder": "Where to?",
+    "checkin": "Check-in Date",
+    "checkout": "Check-out Date",
+    "travelers": "Travelers",
+    "budget": "Budget (Optional)",
+    "additional_info": "Additional Information (Optional)",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "testimonials": {
+    "title": "Our Travelers Speak",
+    "subtitle": "Hear firsthand accounts of the extraordinary experiences U Travel creates.",
+    "reviews": [
+      {
+        "text": "U Travel transformed our honeymoon into a magical journey. The attention to detail was impeccable, and every moment felt like a dream come true.",
+        "author": "Sarah & John",
+        "source": "Newlyweds, Bali Bliss Package"
+      },
+      {
+        "text": "Our safari adventure in Kenya with U Travel was an experience we'll never forget. The wildlife encounters were incredible, and our guide's knowledge was truly impressive.",
+        "author": "David & Emily",
+        "source": "Nature Enthusiasts, Kenya Safari Adventure"
+      },
+      {
+        "text": "U Travel made our family vacation to Europe effortless and enjoyable. We loved the personalized itinerary and the unique experiences we had in each city.",
+        "author": "The Thompson Family",
+        "source": "Family Travelers, European Highlights"
+      },
+      {
+        "text": "PalmStar's Bali Bliss package was the perfect blend of relaxation and cultural immersion. We loved the personalized yoga sessions and the breathtaking temple tours.",
+        "author": "Emily & Ben",
+        "source": "Honeymooners, Bali Bliss Package"
+      },
+      {
+        "text": "The Kenya Safari Adventure exceeded all our expectations! Seeing the Great Migration up close was a dream come true, and the staff at the lodges made us feel like family.",
+        "author": "The Johnson Family",
+        "source": "Family of 4, Kenya Safari Adventure"
+      },
+      {
+        "text": "We were so impressed with PalmStar's ability to create a custom itinerary for our European adventure. We saw everything we wanted to see, and the pace was just right for us.",
+        "author": "Maria & Carlos",
+        "source": "Couple, Custom European Itinerary"
+      },
+      {
+        "text": "U Travel made our dream trip to Machu Picchu a reality. The hike was challenging but rewarding, and the guides were incredibly knowledgeable and supportive.",
+        "author": "Mahira",
+        "source": "Solo Traveler, Maldives"
+      },
+      {
+        "text": "U Travel's commitment to sustainable tourism impressed us. Our eco-lodge in Costa Rica was stunning, and the conservation efforts were truly inspiring.",
+        "author": "Olivia & Noah",
+        "source": "Eco-Travelers, Costa Rica Eco-Adventure"
+      },
+      {
+        "text": "U Travel planned a surprise birthday trip for my husband that was beyond amazing. He was thrilled with the hot air balloon ride over the vineyards in Napa Valley!",
+        "author": "Sundus",
+        "source": "Surprise Planner, Napa Valley Getaway"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Your Gateway to Extraordinary Adventures",
+    "explore": "Explore",
+    "explore_links": {
+      "destinations": "Destinations",
+      "packages": "Packages",
+      "adventures": "Adventures",
+      "blog": "Blog"
+    },
+    "plan": "Plan Your Trip",
+    "plan_links": {
+      "booking": "Booking",
+      "insurance": "Travel Insurance",
+      "faqs": "FAQs"
+    },
+    "company": "Company",
+    "company_links": {
+      "about": "About Us",
+      "contact": "Contact Us",
+      "careers": "Careers"
+    },
+    "legal": "Legal",
+    "legal_links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "cta_title": "Ready for Your Dream Getaway?",
+    "cta_text": "Start planning your next adventure with U Travel today!",
+    "cta_button": "Book Your Trip",
+    "copyright": "© 2024 U Travel Inc. All Rights Reserved."
+  },
+  "modal": {
+    "title": "Plan Your Dream Vacation",
+    "destination": "Destination",
+    "destination_placeholder": "Where to?",
+    "checkin": "Check-in Date",
+    "checkout": "Check-out Date",
+    "travelers": "Travelers",
+    "trip_style": "Trip Style",
+    "trip_style_placeholder": "Choose...",
+    "interests": "Interests (Optional)",
+    "budget": "Budget (Optional)",
+    "additional_info": "Additional Information (Optional)",
+    "cancel": "Cancel",
+    "submit": "Search/Get a Quote"
+  },
+  "chat": {
+    "assistant_name": "U Travel Travel Assistant",
+    "close": "Close",
+    "placeholder": "Type your message...",
+    "welcome_message": "Welcome to U Travel! How can I help you plan your dream vacation?"
+  },
+  "login": {
+    "tab": "Login",
+    "welcome": "Welcome Back",
+    "text": "Login to your account to continue exploring our exclusive tours.",
+    "email_placeholder": "Your Email",
+    "password_placeholder": "Password",
+    "remember_me": "Remember Me",
+    "btn": "Login"
+  },
+  "signup": {
+    "tab": "Signup",
+    "welcome": "Join the Club",
+    "text": "Sign up for a world of premium tours and exclusive offers.",
+    "name_placeholder": "Your Name",
+    "email_placeholder": "Your Email",
+    "password_placeholder": "Password",
+    "terms_conditions": "I accept",
+    "terms_link": "terms and conditions",
+    "btn": "Sign Up"
   }
   
 }

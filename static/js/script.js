@@ -263,20 +263,202 @@ function changeLanguage(lang) {
             document.getElementById("feature-experiences-title").textContent = data.features.list.experiences.title;
             document.getElementById("feature-experiences-desc").textContent = data.features.list.experiences.description;
 
-            // ** Destenetion section yangilash 
+            // // ** Destenetion section yangilash 
             document.getElementById("destinations-title").textContent = data.destinations.title;
             document.getElementById("destinations-subtitle").textContent = data.destinations.subtitle;
 
-            const cards = data["cards"];
-            document.querySelectorAll("#destinations-card").forEach((card, index) => {
-                card.querySelector("#card-title").textContent = cards[index]["name"][language];
-                card.querySelector("#card-text").textContent = cards[index]["description"][language];
-                card.querySelector("#text-muted").textContent = cards[index]["best_time"][language];
-                card.querySelector("#btn-outline-secondary").textContent = cards[index]["read_more"][language];
-                card.querySelector("#btn-warning").textContent = cards[index]["book_now"][language];
+            let destinationsHTML = "";
+            data.destinations.cards.forEach(card => {
+              destinationsHTML  += `
+                <div class="col">
+                  <div class="card h-100 shadow-sm">
+                    <img src="${card.img_url}" class="card-img-top" alt="Bali">
+                    <div class="card-body">
+                     <h5 class="card-title">${card.name}</h5>
+                     <p class="card-text">${card.description}</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <small class="text-muted">${card.best_time}</small>
+                        <div class="btn-group">
+                          <a href="bali-details.html" class="btn btn-sm btn-outline-secondary">${card.read_more}</a>
+                         <button type="button" class="btn btn-sm btn-warning" data-bs-toggle="modal"
+                           data-bs-target="#bookingModal" data-destination="Bali, Indonesia"
+                           data-package-name="Bali Bliss: 8-Day Cultural Escape" data-best-time="April - October">${card.book_now}</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              `;
             });
+            document.getElementById("destinationsCards").innerHTML = destinationsHTML;
+            // const cards = data["cards"];
+            // document.querySelectorAll("#destinations-card").forEach((card, index) => {
+            //     card.querySelector("#card-title").textContent = cards[index]["name"][language];
+            //     card.querySelector("#card-text").textContent = cards[index]["description"][language];
+            //     card.querySelector("#text-muted").textContent = cards[index]["best_time"][language];
+            //     card.querySelector("#btn-outline-secondary").textContent = cards[index]["read_more"][language];
+            //     card.querySelector("#btn-warning").textContent = cards[index]["book_now"][language];
+            // });
 
-            document.getElementById("explore-more").textContent = data.destinations.explore_more;
+            // document.getElementById("explore-more").textContent = data.destinations.explore_more;
+            // //**Package */
+
+            // const titleEl = document.getElementById("packages-title");
+            // const subtitleEl = document.getElementById("packages-subtitle");
+            // const packagesContainer = document.getElementById("packages-container");
+            // const exploreBtn = document.getElementById("explore-btn");
+            // titleEl.textContent = data.packages.title;
+            // subtitleEl.textContent = data.packages.subtitle;
+            // exploreBtn.textContent = data.packages.button;
+        
+            // // Paketlarni yaratish
+            // packagesContainer.innerHTML = "";
+            // data.packages.list.forEach(pkg => {
+            //   const packageHTML = `
+            //     <div class="col">
+            //       <div class="card shadow-sm">
+            //         <img src="${pkg.image}" class="card-img-top" alt="${pkg.title}">
+            //         <div class="card-body">
+            //           <h5 class="card-title">${pkg.title}</h5>
+            //           <p class="card-text">${pkg.description}</p>
+            //           <ul class="list-unstyled">
+            //             ${pkg.features.map(feature => `<li><i class="bi bi-check2-circle"></i> ${feature}</li>`).join('')}
+            //           </ul>
+            //           <p class="card-text text-warning fw-bold text-center">From ${pkg.price} per person</p>
+            //           <div class="d-flex justify-content-center">
+            //             <a href="${pkg.link}" class="btn btn-warning">View Details & Book</a>
+            //           </div>
+            //         </div>
+            //       </div>
+            //     </div>
+            //   `;
+            //   packagesContainer.innerHTML += packageHTML;
+            // });
+            
+
+            // ** About sectionni yangilash
+
+            document.getElementById("about-title").textContent = data.about.title;
+            document.getElementById("about-subtitle").textContent = data.about.subtitle;
+            document.getElementById("about-description").textContent = data.about.description;
+            document.getElementById("feature-paradises-title").textContent = data.about.features.paradises.title;
+            document.getElementById("feature-paradises-description").textContent = data.about.features.paradises.description;
+            document.getElementById("feature-delights-title").textContent = data.about.features.delights.title;
+            document.getElementById("feature-delights-description").textContent = data.about.features.delights.description;
+            document.getElementById("feature-memories-title").textContent = data.about.features.memories.title;
+            document.getElementById("feature-memories-description").textContent = data.about.features.memories.description;
+            document.getElementById("about-cta").textContent = data.about.cta;
+
+            // ** Booking config
+
+            document.getElementById("booking-title").textContent = data.booking.title;
+            document.getElementById("booking-destination-label").textContent = data.booking.destination;
+            document.getElementById("booking-placeholder").textContent = data.booking.placeholder;
+            document.getElementById("booking-checkin-label").textContent = data.booking.checkin;
+            document.getElementById("booking-checkout-label").textContent = data.booking.checkout;
+            document.getElementById("booking-travelers-label").textContent = data.booking.travelers;
+            document.getElementById("booking-budget-label").textContent = data.booking.budget;
+            document.getElementById("booking-additional-label").textContent = data.booking.additional_info;
+            document.getElementById("booking-cancel").textContent = data.booking.cancel;
+            document.getElementById("booking-confirm").textContent = data.booking.confirm;
+
+            // ** tesminals
+
+            document.getElementById("testimonialTitle").innerText = data.testimonials.title;
+            document.getElementById("testimonialSubtitle").innerText = data.testimonials.subtitle;
+
+            let testimonialHTML = "";
+            data.testimonials.reviews.forEach(review => {
+              testimonialHTML += `
+                <div class="testimonial-card p-3 shadow rounded-3 mx-3">
+                 <i class="bi bi-quote quote-icon text-warning mb-3"></i>
+                 <p class="testimonial-text">"${review.text}”</p>
+                 <footer class="blockquote-footer mt-3">${review.author}</footer>
+                 <cite title="Source Title">${review.source}</cite>
+                </div>
+              `;
+            });
+            document.getElementById("testimonialSlider").innerHTML = testimonialHTML;
+
+            
+
+
+            // ** Footer yangilash :
+            document.getElementById("footer-tagline").textContent = data.footer.tagline;
+
+            document.getElementById("footer-explore-title").textContent = data.footer.explore;
+            document.getElementById("footer-destinations").textContent = data.footer.explore_links.destinations;
+            document.getElementById("footer-packages").textContent = data.footer.explore_links.packages;
+            document.getElementById("footer-adventures").textContent = data.footer.explore_links.adventures;
+            document.getElementById("footer-blog").textContent = data.footer.explore_links.blog;
+
+            document.getElementById("footer-plan-title").textContent = data.footer.plan;
+            document.getElementById("footer-booking").textContent = data.footer.plan_links.booking;
+            document.getElementById("footer-insurance").textContent = data.footer.plan_links.insurance;
+            document.getElementById("footer-faqs").textContent = data.footer.plan_links.faqs;
+
+            document.getElementById("footer-company-title").textContent = data.footer.company;
+            document.getElementById("footer-about").textContent = data.footer.company_links.about;
+            document.getElementById("footer-contact").textContent = data.footer.company_links.contact;
+            document.getElementById("footer-careers").textContent = data.footer.company_links.careers;
+
+            document.getElementById("footer-legal-title").textContent = data.footer.legal;
+            document.getElementById("footer-privacy").textContent = data.footer.legal_links.privacy;
+            document.getElementById("footer-terms").textContent = data.footer.legal_links.terms;
+
+            document.getElementById("footer-cta-title").textContent = data.footer.cta_title;
+            document.getElementById("footer-cta-text").textContent = data.footer.cta_text;
+            document.getElementById("footer-cta-button").textContent = data.footer.cta_button;
+            
+            document.getElementById("footer-copyright").textContent = data.footer.copyright;
+
+            // ** Booking modal 
+
+            document.getElementById("footerBookingModalLabel").textContent = data.modal.title;
+            document.getElementById("destination-label").textContent = data.modal.destination;
+            document.getElementById("destination-placeholder").textContent = data.modal.destination_placeholder;
+            document.getElementById("checkin-label").textContent = data.modal.checkin;
+            document.getElementById("checkout-label").textContent = data.modal.checkout;
+            document.getElementById("travelers-label").textContent = data.modal.travelers;
+            document.getElementById("trip-style-label").textContent = data.modal.trip_style;
+            document.getElementById("trip-style-placeholder").textContent = data.modal.trip_style_placeholder;
+            document.getElementById("interests-label").textContent = data.modal.interests;
+            document.getElementById("budget-label").textContent = data.modal.budget;
+            document.getElementById("additional-info-label").textContent = data.modal.additional_info;
+            document.getElementById("cancel-btn").textContent = data.modal.cancel;
+            document.getElementById("submit-btn").textContent = data.modal.submit;
+
+            // ** Chat
+
+            document.getElementById("chat-assistant-name").textContent = data.chat.assistant_name;
+            document.getElementById("chat-close-btn").setAttribute("title", data.chat.close);
+            document.getElementById("user-input").setAttribute("placeholder", data.chat.placeholder);
+             // Xush kelibsiz xabarini o‘zgartirish
+            setWelcomeMessage(data.welcome_message);
+
+            
+            // Login bo'limi
+            document.getElementById("login-tab").textContent = data.login.tab;
+            document.getElementById("login-welcome").textContent = data.login.welcome;
+            document.getElementById("login-text").textContent = data.login.text;
+            document.getElementById("loginEmail").setAttribute("placeholder", data.login.email_placeholder);
+            document.getElementById("loginPassword").setAttribute("placeholder", data.login.password_placeholder);
+            document.getElementById("login-remember").textContent = data.login.remember_me;
+            document.getElementById("login-btn").textContent = data.login.btn;
+
+            // Signup bo'limi
+            document.getElementById("signup-tab").textContent = data.signup.tab;
+            document.getElementById("signup-welcome").textContent = data.signup.welcome;
+            document.getElementById("signup-text").textContent = data.signup.text;
+            document.getElementById("signupName").setAttribute("placeholder", data.signup.name_placeholder);
+            document.getElementById("signupEmail").setAttribute("placeholder", data.signup.email_placeholder);
+            document.getElementById("signupPassword").setAttribute("placeholder", data.signup.password_placeholder);
+            document.getElementById("signup-terms-text").textContent = data.signup.terms_conditions;
+            document.getElementById("signup-terms-link").textContent = data.signup.terms_link;
+            document.getElementById("signup-btn").textContent = data.signup.btn;
+
+            // Saqlash
+            localStorage.setItem("language", lang);
 
             // **Tilni almashtirish dropdownini yangilash**
             document.querySelectorAll(".dropdown-menu a").forEach(link => {
@@ -292,5 +474,16 @@ function changeLanguage(lang) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    changeLanguage(currentLang); // Sahifa yuklanganda tilni yuklash
+  let currentLang = localStorage.getItem("language") || "uz";
+  changeLanguage(currentLang);
 });
+// Botdan keladigan xush kelibsiz xabarni chiqarish funksiyasi
+function setWelcomeMessage(message) {
+  let chatBody = document.querySelector(".chat-body");
+
+  let botMessage = document.createElement("div");
+  botMessage.classList.add("bot-message");
+  botMessage.textContent = message;
+
+  chatBody.appendChild(botMessage);
+}

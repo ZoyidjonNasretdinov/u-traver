@@ -63,6 +63,7 @@
     "subtitle": "PalmStar tomonidan tanlangan ajoyib yo'nalishlar to'plami.",
     "cards": [
     {
+      "img_url":"./static/img/bali.jpg",
       "name": "Bali, Indoneziya",
       "description": "Serhasham sholizorlar, qadimiy ibodatxonalar, jonli tungi hayot va dunyo darajasidagi sörfing.",
       "best_time": "Eng yaxshi vaqt: Aprel - Oktyabr",
@@ -70,6 +71,7 @@
       "book_now": "Bron qilish"
     },
     {
+      "img_url":"./static/img/santorini.jpg",
       "name": "Santorini, Gretsiya",
       "description": "Romantik quyosh botishlari, oq qishloqlar, vulqon plyajlari va qadimiy xarobalar.",
       "best_time": "Eng yaxshi vaqt: May - Sentyabr",
@@ -77,6 +79,7 @@
       "book_now": "Bron qilish"
     },
     {
+      "img_url":"./static/img/machu-picchu.jpg",
       "name": "Machu Picchu, Peru",
       "description": "And tog‘lari bo‘ylab qadimiy Inka shahriga sayohat – ajoyib arxitektura va hayratlanarli manzaralar.",
       "best_time": "Eng yaxshi vaqt: May - Sentyabr",
@@ -84,6 +87,7 @@
       "book_now": "Bron qilish"
     },
     {
+      "img_url":"./static/img/queenstown.jpg",
       "name": "Queenstown, Yangi Zelandiya",
       "description": "Dunyodagi sarguzasht poytaxti – bungee sakrash, parashyut bilan sakrash, tog‘ yurishlari va ajoyib manzaralar.",
       "best_time": "Eng yaxshi vaqt: Dekabr - Fevral",
@@ -91,6 +95,7 @@
       "book_now": "Bron qilish"
     },
     {
+      "img_url":"./static/img/Iceland.webp",
       "name": "Islandiya",
       "description": "Shimoliy yog‘duga guvoh bo‘ling, muzliklarni o‘rganing, issiq buloqlarda dam oling va bu noyob Skandinaviya mo‘’jizasini kashf qiling.",
       "best_time": "Eng yaxshi vaqt: Iyun - Avgust",
@@ -98,6 +103,7 @@
       "book_now": "Bron qilish"
     },
     {
+      "img_url":"./static/img/tahiti.jpg",
       "name": "Taiti, Fransiya Polineziyasi",
       "description": "Turkuaz lagunalar, suv ustidagi bungalolar, rang-barang marjon riflari va Polineziya madaniyatining sehrli ruhi.",
       "best_time": "Eng yaxshi vaqt: May - Oktyabr",
@@ -105,6 +111,7 @@
       "book_now": "Bron qilish"
     },
     {
+      "img_url":"./static/img/rayyu-maldives.jpg",
       "name": "Maldiv orollari",
       "description": "Suv ustidagi bungalolar, oppoq plyajlar, musaffo suvlar va rang-barang marjon riflarini kashf qiling. Bu xususiy orolda hashamat va xotirjamlikni his eting.",
       "best_time": "Eng yaxshi vaqt: Noyabr - Aprel",
@@ -112,6 +119,7 @@
       "book_now": "Bron qilish"
     },
     {
+      "img_url":"./static/img/maasai-mara.jpg",
       "name": "Masai Mara, Keniya",
       "description": "Buyuk Migratsiyaga guvoh bo‘ling, hayvonot olamining betakror go‘zalligidan bahramand bo‘ling va Maasai xalqining boy madaniyatini o‘rganing.",
       "best_time": "Eng yaxshi vaqt: Iyul - Oktyabr",
@@ -120,5 +128,216 @@
     }
    ],
     "explore_more": "Ko'proq Manzillarni O'rganing"
+  },
+  "packages": {
+    "title": "Unutilmas Tajribalar, Siz Uchun Tanlangan",
+    "subtitle": "Sayohatga bo‘lgan ishtiyoqingizni uyg‘otish uchun maxsus sayohat paketlarimizni kashf qiling.",
+    "list": [
+      {
+        "title": "Bali Bliss: 8 Kunlik Madaniy Sayohat",
+        "description": "Ubudning madaniy markazini o‘rganing, toza plyajlarda dam oling va orolning o‘ziga xos ruhiyati bilan tanishing.",
+        "details": [
+          "7 kecha hashamatli mehmonxonalarda yashash",
+          "Har kuni nonushta va 3 ta gourmet kechki ovqat",
+          "Ibodatxonalar va guruch terrasalariga ekskursiyalar",
+          "Yoga va meditatsiya mashg‘ulotlari"
+        ],
+        "price": "1,899$ dan boshlab",
+        "image": "./static/img/bali-package.jpg"
+      },
+      {
+        "title": "Keniya Safari Sarguzashti: 10 Kun",
+        "description": "Maasai Mara'da Buyuk Migratsiyaga guvoh bo‘ling, turli yovvoyi hayvonlarni uchrating va Keniya boy madaniyatiga sho‘ng‘ing.",
+        "details": [
+          "9 kecha hashamatli safari mehmonxonalarida yashash",
+          "Tajribali gidlar bilan birga ko‘plab safari sayohatlari",
+          "Maasai qishlog‘iga madaniy tashrif",
+          "Hammasi ichiga olingan taomlar va ichimliklar"
+        ],
+        "price": "3,299$ dan boshlab",
+        "image": "./static/img/safari-package.webp"
+      },
+      {
+        "title": "Yevropa Sayohati: 12 Kun",
+        "description": "Parijdagi Eyfel minorasidan tortib, Venetsiyadagi kanallargacha – Yevropaning mashhur shaharlarini va go‘zal qishloqlarini kashf qiling.",
+        "details": [
+          "11 kecha markaziy joylashgan mehmonxonalarda yashash",
+          "Shaharlar orasida tez yuruvchi poyezdlar orqali sayohat",
+          "Asosiy diqqatga sazovor joylarga ekskursiyalar",
+          "Erkin sayohat va mustaqil o‘rganish uchun vaqt"
+        ],
+        "price": "2,499$ dan boshlab",
+        "image": "./static/img/european-highlights.jpg"
+      },
+      {
+        "title": "Vietnam Sehrlari: 10 Kunlik Sayohat",
+        "description": "Hanoidan Halong Baygacha - Vyetnamning jonli shaharlarini, qadimiy ibodatxonalarini va mazali taomlarini kashf qiling.",
+        "details": [
+          "9 kecha mehmonxonalar va an’anaviy kema uyida yashash",
+          "Hanoi va Ho Chi Minh shaharlarida ekskursiyalar",
+          "Halong Bayda tunab qolish kruizi",
+          "Pishirish darslari va ko‘cha taomlari sayohati",
+          "Hoi An qadimiy shahriga tashrif"
+        ],
+        "price": "1,299$ dan boshlab",
+        "image": "./static/img/vietnam-package.png"
+      }
+    ],
+    "button": "Barcha Paketlarni Ko‘rish"
+  },
+  "about": {
+    "title": "Nega U Travel'ni tanlash kerak?",
+    "subtitle": "Bu shunchaki ta’til emas, bu unutilmas tajriba.",
+    "description": "U Travel oddiy sayyohlik agentligi emas. Biz sizning hamrohingiz bo‘lib, betakror va shaxsiylashtirilgan sayohatlar yaratamiz, ular sizga unutilmas xotiralar ulashadi.",
+    "features": {
+      "paradises": {
+        "title": "Yashirin jannat joylarini kashf qiling",
+        "description": "Maxfiy plyajlar, sehrli o‘rmonlar va betakror madaniyatlarni bizning maxsus yo‘nalishlarimiz bilan kashf eting."
+      },
+      "delights": {
+        "title": "Mahalliy lazzatlarni tatib ko‘ring",
+        "description": "Butun dunyo bo‘ylab eng mazali va haqiqiy taomlardan bahramand bo‘lish uchun biz sizga eng yaxshi tavsiyalarni taqdim etamiz."
+      },
+      "memories": {
+        "title": "Unutilmas xotiralarni muhrlang",
+        "description": "Sayohatlaringizni hayratlanarli suratlar bilan abadiylashtiring va yuragingizni rom qiluvchi lahzalardan bahramand bo‘ling."
+      }
+    },
+    "cta": "Yo‘nalishlarimizni o‘rganing"
+  },
+  "booking": {
+    "title": "U Travel bilan sayohatingizni bron qiling",
+    "destination": "Manzil",
+    "placeholder": "Qayerga?",
+    "checkin": "Kirish sanasi",
+    "checkout": "Chiqish sanasi",
+    "travelers": "Sayohatchilar",
+    "budget": "Byudjet (Ixtiyoriy)",
+    "additional_info": "Qo‘shimcha ma’lumotlar (Ixtiyoriy)",
+    "cancel": "Bekor qilish",
+    "confirm": "Tasdiqlash"
+  },
+  "testimonials": {
+    "title": "Sayohatchilarimizning fikrlari",
+    "subtitle": "U Travel yaratgan ajoyib sayohat tajribalarini birinchi qo‘ldan eshiting.",
+    "reviews": [
+      {
+        "text": "U Travel asal oyimizni ajoyib sayohatga aylantirdi. Har bir tafsilot mukammal edi va har bir lahza orzu kabi tuyuldi.",
+        "author": "Saroh & Jon",
+        "source": "Yangi turmush qurganlar, Bali Bliss paketi"
+      },
+      {
+        "text": "U Travel bilan Keniyadagi safari sarguzashtimiz unutilmas bo‘ldi. Yovvoyi tabiat bilan uchrashuvlar ajoyib edi va gidimizning bilimi hayratlanarli darajada edi.",
+        "author": "David & Emil",
+        "source": "Tabiat ishqibozlari, Keniya Safari Sarguzashti"
+      },
+      {
+        "text": "U Travel oilaviy Yevropa ta'tilimizni oson va maroqli qildi. Shaxsiylashtirilgan marshrut va har bir shahardagi betakror tajribalar bizga juda yoqdi.",
+        "author": "Thompson oilasi",
+        "source": "Oilaviy sayohatchilar, Yevropa sayohati"
+      },
+      {
+        "text": "PalmStar-ning Bali Bliss paketi dam olish va madaniy muhitni o‘rganish uchun mukammal uyg‘unlik edi. Shaxsiy yoga mashg‘ulotlari va ajoyib ibodatxona sayohatlari bizga juda yoqdi.",
+        "author": "Emili & Ben",
+        "source": "Asal oyi jufti, Bali Bliss paketi"
+      },
+      {
+        "text": "Keniya Safari sarguzashti bizning barcha kutganlarimizdan ham yuqori bo‘ldi! Buyuk Migratsiyani yaqin masofada ko‘rish – haqiqiy orzuning ushalishi edi va mehmonxonalardagi xodimlar bizni o‘z oilasidek qabul qilishdi.",
+        "author": "Jonsonlar oilasi",
+        "source": "4 kishilik oila, Keniya Safari Sarguzashti"
+      },
+      {
+        "text": "PalmStar bizning Yevropa sayohatimiz uchun shaxsiy marshrut yaratish qobiliyatidan juda hayratlandik. Biz xohlagan hamma joylarni ko‘rdik va sayohat sur'ati aynan bizga mos edi.",
+        "author": "Maria & Carlos",
+        "source": "Juftlik, Yevropa sayohati"
+      },
+      {
+        "text": "U Travel bizning Machu Picchuga bo‘lgan orzuimizni haqiqatga aylantirdi. Yurish qiyin edi, lekin juda qiziqarli va mukofotlanadigan tajriba bo‘ldi. Gidlar juda bilimli va yordam beruvchi edi.",
+        "author": "Mahira",
+        "source": "Yakkaxon sayohatchi, Maldiv orollari"
+      },
+      {
+        "text": "U Travel-ning barqaror turizmga bo‘lgan sadoqati bizni juda hayratlantirdi. Kosta-Rikadagi ekomehmonxonamiz ajoyib edi va tabiatni asrash tashabbuslari ilhomlantiruvchi bo‘ldi.",
+        "author": "Oliviya & Noa",
+        "source": "Ekoturistlar, Kosta-Rika Ekosayohati"
+      },
+      {
+        "text": "U Travel turmush o‘rtog‘im uchun ajoyib tug‘ilgan kun sayohatini rejalashtirdi. Napa vodiysida havo shari uchish tajribasi uni hayratda qoldirdi!",
+        "author": "Sundus",
+        "source": "Syurpriz rejasi, Napa vodiysi sayohati"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Unutilmas sayohatlar eshigi",
+    "explore": "Kashf qiling",
+    "explore_links": {
+      "destinations": "Yo'nalishlar",
+      "packages": "Paketlar",
+      "adventures": "Sarguzashtlar",
+      "blog": "Blog"
+    },
+    "plan": "Sayohatingizni rejalashtiring",
+    "plan_links": {
+      "booking": "Buyurtma qilish",
+      "insurance": "Sayohat sug‘urtasi",
+      "faqs": "Ko‘p so‘raladigan savollar"
+    },
+    "company": "Kompaniya",
+    "company_links": {
+      "about": "Biz haqimizda",
+      "contact": "Bog‘lanish",
+      "careers": "Ish imkoniyatlari"
+    },
+    "legal": "Huquqiy",
+    "legal_links": {
+      "privacy": "Maxfiylik siyosati",
+      "terms": "Foydalanish shartlari"
+    },
+    "cta_title": "Orzuingizdagi ta’tilga tayyormisiz?",
+    "cta_text": "Bugundan boshlab U Travel bilan keyingi sayohatingizni rejalashtiring!",
+    "cta_button": "Sayohatni rejalashtiring",
+    "copyright": "© 2024 U Travel Inc. Barcha huquqlar himoyalangan."
+  },
+  "modal": {
+    "title": "Orzuingizdagi Ta’tilni Rejalashtiring",
+    "destination": "Manzil",
+    "destination_placeholder": "Qayerga?",
+    "checkin": "Kirish sanasi",
+    "checkout": "Chiqish sanasi",
+    "travelers": "Sayohatchilar",
+    "trip_style": "Sayohat uslubi",
+    "trip_style_placeholder": "Tanlang...",
+    "interests": "Qiziqishlar (Majburiy emas)",
+    "budget": "Byudjet (Majburiy emas)",
+    "additional_info": "Qo‘shimcha ma’lumot (Majburiy emas)",
+    "cancel": "Bekor qilish",
+    "submit": "Qidirish/Taklif olish"
+  },
+  "chat": {
+    "assistant_name": "U Travel Sayohat Assistent",
+    "close": "Yopish",
+    "placeholder": "Xabaringizni yozing...",
+    "welcome_message": "U Travel-ga xush kelibsiz! Orzuyingizdagi ta’tildagi rejalaringizni tuzishda yordam bera olamanmi?"
+  },
+  "login": {
+    "tab": "Kirish",
+    "welcome": "Xush kelibsiz",
+    "text": "Eksklyuziv turlarni ko‘rish uchun hisobingizga kiring.",
+    "email_placeholder": "Elektron pochtangiz",
+    "password_placeholder": "Parolingiz",
+    "remember_me": "Meni eslab qol",
+    "btn": "Kirish"
+  },
+  "signup": {
+    "tab": "Ro‘yxatdan o‘tish",
+    "welcome": "Bizga qo‘shiling",
+    "text": "Premium sayohat va maxsus takliflardan bahramand bo‘ling.",
+    "name_placeholder": "Ismingiz",
+    "email_placeholder": "Elektron pochtangiz",
+    "password_placeholder": "Parolingiz",
+    "terms_conditions": "Men shartlarni qabul qilaman",
+    "terms_link": "Foydalanish shartlari",
+    "btn": "Ro‘yxatdan o‘tish"
   }
 }

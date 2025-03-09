@@ -115,12 +115,12 @@
       <img src="../static/img/palmstar-logo.png" alt="Company Logo" class="logo text-center">
     </header>
     <section class="tab-container">
-      <button class="tab active" onclick="openTab(event, 'login')">Login</button>
-      <button class="tab" onclick="openTab(event, 'signup')">Signup</button>
+      <button class="tab active" onclick="openTab(event, 'login')" id="login-tab">Login</button>
+      <button class="tab" onclick="openTab(event, 'signup')" id="signup-tab">Signup</button>
     </section>
     <section id="login" class="tab-content active">
-      <h2 class="text-center fw-bold">Welcome Back</h2>
-      <p class="text-center mt-3 mb-4">Login to your account to continue exploring our exclusive tours.</p>
+      <h2 class="text-center fw-bold" id="login-welcome">Welcome Back</h2>
+      <p class="text-center mt-3 mb-4" id="login-text">Login to your account to continue exploring our exclusive tours.</p>
       <form id="loginForm">
         <div class="form-group">
           <input type="email" id="loginEmail" name="email" placeholder="Your Email" required>
@@ -130,13 +130,14 @@
         </div>
         <label for="remember" class="form-check-label my-2">
           <input type="checkbox" name="remember-me" id="remember" class="form-check-input"> Remember Me
+          <span id="login-remember"></span>
         </label>
-        <button type="submit">Login</button>
+        <button type="submit" id="login-btn">Login</button>
       </form>
     </section>
     <section id="signup" class="tab-content">
-      <h2 class="text-center fw-bold">Join the Club</h2>
-      <p class="text-center mb-4">Sign up for a world of premium tours and exclusive offers.</p>
+      <h2 class="text-center fw-bold" id="signup-welcome">Join the Club</h2>
+      <p class="text-center mb-4" id="signup-text">Sign up for a world of premium tours and exclusive offers.</p>
       <form id="signupForm">
         <div class="form-group">
           <input type="text" id="name" name="name" placeholder="Your Name" required>
@@ -151,8 +152,9 @@
           <input type="checkbox" name="terms" id="terms" class="form-check-input"> I accept <a href="http://"
             class="text-decoration-none">terms and
             conditions</a>
+            <span id="signup-terms-text"></span>
         </label>
-        <button type="submit">Sign Up</button>
+        <button type="submit" id="signup-btn">Sign Up</button>
       </form>
     </section>
   </main>
