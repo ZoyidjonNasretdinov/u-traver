@@ -186,9 +186,9 @@
     "button": "Explore All Packages"
   },
   "about": {
-    "title": "Why Choose U Travel?",
+    "title": "Why Choose U-Travel?",
     "subtitle": "More Than Just a Vacation, It's an Experience.",
-    "description": "U Travel isn't just another travel agency. We're your partners in crafting unique, personalized adventures that awaken your senses and leave you with stories to tell.",
+    "description": "U-Travel isn't just another travel agency. We're your partners in crafting unique, personalized adventures that awaken your senses and leave you with stories to tell.",
     "features": {
       "paradises": {
         "title": "Discover Hidden Paradises",
@@ -206,7 +206,7 @@
     "cta": "Explore Our Destinations"
   },
   "booking": {
-    "title": "Book Your Adventure with U Travel",
+    "title": "Book Your Adventure with U-Travel",
     "destination": "Destination",
     "placeholder": "Where to?",
     "checkin": "Check-in Date",
@@ -219,20 +219,20 @@
   },
   "testimonials": {
     "title": "Our Travelers Speak",
-    "subtitle": "Hear firsthand accounts of the extraordinary experiences U Travel creates.",
+    "subtitle": "Hear firsthand accounts of the extraordinary experiences U-Travel creates.",
     "reviews": [
       {
-        "text": "U Travel transformed our honeymoon into a magical journey. The attention to detail was impeccable, and every moment felt like a dream come true.",
+        "text": "U-Travel transformed our honeymoon into a magical journey. The attention to detail was impeccable, and every moment felt like a dream come true.",
         "author": "Sarah & John",
         "source": "Newlyweds, Bali Bliss Package"
       },
       {
-        "text": "Our safari adventure in Kenya with U Travel was an experience we'll never forget. The wildlife encounters were incredible, and our guide's knowledge was truly impressive.",
+        "text": "Our safari adventure in Kenya with U-Travel was an experience we'll never forget. The wildlife encounters were incredible, and our guide's knowledge was truly impressive.",
         "author": "David & Emily",
         "source": "Nature Enthusiasts, Kenya Safari Adventure"
       },
       {
-        "text": "U Travel made our family vacation to Europe effortless and enjoyable. We loved the personalized itinerary and the unique experiences we had in each city.",
+        "text": "U-Travel made our family vacation to Europe effortless and enjoyable. We loved the personalized itinerary and the unique experiences we had in each city.",
         "author": "The Thompson Family",
         "source": "Family Travelers, European Highlights"
       },
@@ -252,17 +252,17 @@
         "source": "Couple, Custom European Itinerary"
       },
       {
-        "text": "U Travel made our dream trip to Machu Picchu a reality. The hike was challenging but rewarding, and the guides were incredibly knowledgeable and supportive.",
+        "text": "U-Travel made our dream trip to Machu Picchu a reality. The hike was challenging but rewarding, and the guides were incredibly knowledgeable and supportive.",
         "author": "Mahira",
         "source": "Solo Traveler, Maldives"
       },
       {
-        "text": "U Travel's commitment to sustainable tourism impressed us. Our eco-lodge in Costa Rica was stunning, and the conservation efforts were truly inspiring.",
+        "text": "U-Travel's commitment to sustainable tourism impressed us. Our eco-lodge in Costa Rica was stunning, and the conservation efforts were truly inspiring.",
         "author": "Olivia & Noah",
         "source": "Eco-Travelers, Costa Rica Eco-Adventure"
       },
       {
-        "text": "U Travel planned a surprise birthday trip for my husband that was beyond amazing. He was thrilled with the hot air balloon ride over the vineyards in Napa Valley!",
+        "text": "U-Travel planned a surprise birthday trip for my husband that was beyond amazing. He was thrilled with the hot air balloon ride over the vineyards in Napa Valley!",
         "author": "Sundus",
         "source": "Surprise Planner, Napa Valley Getaway"
       }
@@ -295,9 +295,9 @@
       "terms": "Terms of Service"
     },
     "cta_title": "Ready for Your Dream Getaway?",
-    "cta_text": "Start planning your next adventure with U Travel today!",
+    "cta_text": "Start planning your next adventure with U-Travel today!",
     "cta_button": "Book Your Trip",
-    "copyright": "© 2024 U Travel Inc. All Rights Reserved."
+    "copyright": "© 2024 U-Travel Inc. All Rights Reserved."
   },
   "modal": {
     "title": "Plan Your Dream Vacation",
@@ -315,10 +315,10 @@
     "submit": "Search/Get a Quote"
   },
   "chat": {
-    "assistant_name": "U Travel Travel Assistant",
+    "assistant_name": "U-Travel Travel Assistant",
     "close": "Close",
     "placeholder": "Type your message...",
-    "welcome_message": "Welcome to U Travel! How can I help you plan your dream vacation?"
+    "welcome_message": "Welcome to U-Travel! How can I help you plan your dream vacation?"
   },
   "login": {
     "tab": "Login",
