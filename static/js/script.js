@@ -291,49 +291,44 @@ function changeLanguage(lang) {
               `;
             });
             document.getElementById("destinationsCards").innerHTML = destinationsHTML;
-            // const cards = data["cards"];
-            // document.querySelectorAll("#destinations-card").forEach((card, index) => {
-            //     card.querySelector("#card-title").textContent = cards[index]["name"][language];
-            //     card.querySelector("#card-text").textContent = cards[index]["description"][language];
-            //     card.querySelector("#text-muted").textContent = cards[index]["best_time"][language];
-            //     card.querySelector("#btn-outline-secondary").textContent = cards[index]["read_more"][language];
-            //     card.querySelector("#btn-warning").textContent = cards[index]["book_now"][language];
-            // });
-
-            // document.getElementById("explore-more").textContent = data.destinations.explore_more;
+           
+            document.getElementById("explore-more").textContent = data.destinations.explore_more;
             // //**Package */
+            document.getElementById("packages-title").textContent = data.packages.title;
+            document.getElementById("packages-subtitle").textContent = data.packages.subtitle;
 
-            // const titleEl = document.getElementById("packages-title");
-            // const subtitleEl = document.getElementById("packages-subtitle");
-            // const packagesContainer = document.getElementById("packages-container");
-            // const exploreBtn = document.getElementById("explore-btn");
-            // titleEl.textContent = data.packages.title;
-            // subtitleEl.textContent = data.packages.subtitle;
-            // exploreBtn.textContent = data.packages.button;
-        
-            // // Paketlarni yaratish
-            // packagesContainer.innerHTML = "";
-            // data.packages.list.forEach(pkg => {
-            //   const packageHTML = `
-            //     <div class="col">
-            //       <div class="card shadow-sm">
-            //         <img src="${pkg.image}" class="card-img-top" alt="${pkg.title}">
-            //         <div class="card-body">
-            //           <h5 class="card-title">${pkg.title}</h5>
-            //           <p class="card-text">${pkg.description}</p>
-            //           <ul class="list-unstyled">
-            //             ${pkg.features.map(feature => `<li><i class="bi bi-check2-circle"></i> ${feature}</li>`).join('')}
-            //           </ul>
-            //           <p class="card-text text-warning fw-bold text-center">From ${pkg.price} per person</p>
-            //           <div class="d-flex justify-content-center">
-            //             <a href="${pkg.link}" class="btn btn-warning">View Details & Book</a>
-            //           </div>
-            //         </div>
-            //       </div>
-            //     </div>
-            //   `;
-            //   packagesContainer.innerHTML += packageHTML;
-            // });
+            const packageCards = document.getElementById("packageCards");
+
+            function renderPackages() {
+                // Eski kontentni tozalash
+                packageCards.innerHTML = "";
+            
+                // Yangi paketlarni qo'shish
+                packageCards.innerHTML = data.packages.list.map(package => `
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="${package.image}" class="card-img-top" alt="${package.title}">
+                            <div class="card-body">
+                                <h5 class="card-title">${package.title}</h5>
+                                <p class="card-text">${package.description}</p>
+                                <ul class="list-unstyled">
+                                    ${package.details.map(detail => `<li><i class="bi bi-check2-circle"></i> ${detail}</li>`).join('')}
+                                </ul>
+                                <p class="card-text text-warning fw-bold text-center">${package.price}</p>
+                                <div class="d-flex justify-content-center">
+                                    <a href="#" class="btn btn-warning">View Details & Book</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+            }
+            
+            // Funksiyani chaqirish
+            renderPackages();
+
+
+           
             
 
             // ** About sectionni yangilash
