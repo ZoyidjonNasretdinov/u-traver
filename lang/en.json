@@ -30,7 +30,7 @@
   },
   "achievements": {
     "title": "Our Commitment to Excellence",
-    "subtitle": "PalmStar's dedication to exceptional travel experiences, by the numbers.",
+    "subtitle": "U Traver's dedication to exceptional travel experiences, by the numbers.",
     "stats": {
       "happy_travelers": "Happy Travelers",
       "years_experience": "Years of Experience",
@@ -41,7 +41,7 @@
     }
   },
   "features": {
-    "title": "Unlock the Magic of Travel with PalmStar",
+    "title": "Unlock the Magic of Travel with U Traver",
     "subtitle": "Your journey is more than just a destination – it's an unforgettable experience.",
     "list": {
       "exploration": {
@@ -60,7 +60,7 @@
   },
   "destinations": {
     "title": "Discover Your Dream Destination",
-    "subtitle": "A collection of breathtaking destinations curated by PalmStar.",
+    "subtitle": "A collection of breathtaking destinations curated by U Traver.",
     "cards": [
     {
       "img_url":"./static/img/bali.jpg",
@@ -237,7 +237,7 @@
         "source": "Family Travelers, European Highlights"
       },
       {
-        "text": "PalmStar's Bali Bliss package was the perfect blend of relaxation and cultural immersion. We loved the personalized yoga sessions and the breathtaking temple tours.",
+        "text": "U Traver's Bali Bliss package was the perfect blend of relaxation and cultural immersion. We loved the personalized yoga sessions and the breathtaking temple tours.",
         "author": "Emily & Ben",
         "source": "Honeymooners, Bali Bliss Package"
       },
@@ -247,7 +247,7 @@
         "source": "Family of 4, Kenya Safari Adventure"
       },
       {
-        "text": "We were so impressed with PalmStar's ability to create a custom itinerary for our European adventure. We saw everything we wanted to see, and the pace was just right for us.",
+        "text": "We were so impressed with U Traver's ability to create a custom itinerary for our European adventure. We saw everything we wanted to see, and the pace was just right for us.",
         "author": "Maria & Carlos",
         "source": "Couple, Custom European Itinerary"
       },
