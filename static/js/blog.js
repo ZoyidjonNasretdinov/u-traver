@@ -26,6 +26,57 @@ function changeLanguage(lang) {
         let element = document.getElementById(`nav-${id}`);
         if (element) element.textContent = data.navbar[id];
       });
+
+      let blogData = data.Blogs;
+
+      document.getElementById("blog-title").textContent = blogData.blog_title;
+      document.getElementById("blog-desc").textContent = blogData.blog_desc;
+      document.getElementById("view-all").textContent = blogData.view_all;
+
+      let blogContainer = document.getElementById("blog-posts");
+      blogContainer.innerHTML = ""; // Avvalgi postlarni o‘chirish
+
+      blogData.posts.forEach(post => {
+          let colDiv = document.createElement("div");
+          colDiv.classList.add("col-lg-4", "col-md-6", "mb-4");
+
+          let cardDiv = document.createElement("div");
+          cardDiv.classList.add("card", "h-100", "shadow-sm");
+
+          let img = document.createElement("img");
+          img.src = post.img;
+          img.classList.add("card-img-top");
+          img.alt = post.title;
+
+          let cardBody = document.createElement("div");
+          cardBody.classList.add("card-body");
+
+          let title = document.createElement("h5");
+          title.classList.add("card-title");
+          title.textContent = post.title;
+
+          let desc = document.createElement("p");
+          desc.classList.add("card-text");
+          desc.textContent = post.desc;
+
+          let link = document.createElement("a");
+          link.href = post.link;
+          link.classList.add("btn", "btn-warning");
+          link.textContent = "Batafsil o‘qish"; // Til o‘zgarganda avtomatik o‘zgartiriladi
+
+          // Elementlarni bir-biriga qo‘shamiz
+          cardBody.appendChild(title);
+          cardBody.appendChild(desc);
+          cardBody.appendChild(link);
+
+          cardDiv.appendChild(img);
+          cardDiv.appendChild(cardBody);
+
+          colDiv.appendChild(cardDiv);
+
+          blogContainer.appendChild(colDiv); // DOM ga qo‘shish
+      });
+
       
       document.getElementById("footer-tagline").textContent = data.footer.tagline;
       document.getElementById("footer-explore-title").textContent = data.footer.explore;

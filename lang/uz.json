@@ -30,7 +30,7 @@
   },
   "achievements": {
     "title": "Mukammallikka bo‘lgan intilishimiz",
-    "subtitle": "PalmStar ajoyib sayohat tajribalariga sodiqligi, raqamlarda.",
+    "subtitle": "U Travel ajoyib sayohat tajribalariga sodiqligi, raqamlarda.",
     "stats": {
       "happy_travelers": "Baxtli sayohatchilar",
       "years_experience": "Yillik tajriba",
@@ -41,7 +41,7 @@
     }
   },
   "features": {
-    "title": "PalmStar bilan sayohat sehrini kashf eting",
+    "title": "U Travel bilan sayohat sehrini kashf eting",
     "subtitle": "Sizning sayohatingiz faqat manzil emas – bu unutilmas tajriba.",
     "list": {
       "exploration": {
@@ -60,7 +60,7 @@
   },
   "destinations": {
     "title": "Orzuingizdagi Manzilni Keshf Qiling",
-    "subtitle": "PalmStar tomonidan tanlangan ajoyib yo'nalishlar to'plami.",
+    "subtitle": "U Travel tomonidan tanlangan ajoyib yo'nalishlar to'plami.",
     "cards": [
     {
       "img_url":"./static/img/bali.jpg",
@@ -237,7 +237,7 @@
         "source": "Oilaviy sayohatchilar, Yevropa sayohati"
       },
       {
-        "text": "PalmStar-ning Bali Bliss paketi dam olish va madaniy muhitni o‘rganish uchun mukammal uyg‘unlik edi. Shaxsiy yoga mashg‘ulotlari va ajoyib ibodatxona sayohatlari bizga juda yoqdi.",
+        "text": "U Travel-ning Bali Bliss paketi dam olish va madaniy muhitni o‘rganish uchun mukammal uyg‘unlik edi. Shaxsiy yoga mashg‘ulotlari va ajoyib ibodatxona sayohatlari bizga juda yoqdi.",
         "author": "Emili & Ben",
         "source": "Asal oyi jufti, Bali Bliss paketi"
       },
@@ -247,7 +247,7 @@
         "source": "4 kishilik oila, Keniya Safari Sarguzashti"
       },
       {
-        "text": "PalmStar bizning Yevropa sayohatimiz uchun shaxsiy marshrut yaratish qobiliyatidan juda hayratlandik. Biz xohlagan hamma joylarni ko‘rdik va sayohat sur'ati aynan bizga mos edi.",
+        "text": "U Travel bizning Yevropa sayohatimiz uchun shaxsiy marshrut yaratish qobiliyatidan juda hayratlandik. Biz xohlagan hamma joylarni ko‘rdik va sayohat sur'ati aynan bizga mos edi.",
         "author": "Maria & Carlos",
         "source": "Juftlik, Yevropa sayohati"
       },
